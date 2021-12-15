@@ -9,10 +9,42 @@ The program takes 12-14 ms to spellcheck the 13000 word document, averaging arou
 
 Program also calculates its own duration and checks accuracy of document
 
-Current development state:
+Current development status:
 - First version out
-  - Need to add parsing for integer values and better punctuation support. 
-  - More detailed location information on error, maybe a line value.
+  - Most punctuation cases are dealt with
+  - Added support for selection of file by user
+  - Supports large (1'000'000+ word documents) txt files in short times (less than 5 seconds)
+
+Output using the inputlong.txt file attached (source: http://norvig.com/big.txt)
+
+
+Output for input.txt:  
+ 
+
+SAMPLE output:
+(Detailed error reports above ex:)
+Word #13081: spaulding not found in dictionary.
+Word found here: this Vincent Spaulding?"
+This is error #184 found after 35.992ms
+
+
+FINAL REPORT: found 185 errors in 13175 words. This document had 98.5958 percent accuracy
+PERFORMANCE REPORT
+  Spellcheck: 36.171ms
+  Average time per word was 0.00274543ms
+  Dictionary loaded in 124.445ms
+  File "input.txt" loaded in 0.255ms
+  Total Run time: 160.998ms
+  
+output for inputlong.txt
+
+FINAL REPORT: found 35383 errors in 1094861 words. This document had 96.7683 percent accuracy
+PERFORMANCE REPORT
+  Spellcheck: 1491.28ms
+  Average time per word was 0.00136207ms
+  Dictionary loaded in 129.679ms
+  File "input.txt" loaded in 0.175ms
+  Total Run time: 1621.24ms
 
 **Credit for dictionary: **
 custom wordlist generated from http://app.aspell.net/create using scowl
