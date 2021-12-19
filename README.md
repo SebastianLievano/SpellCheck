@@ -43,7 +43,7 @@ PERFORMANCE REPORT
   Spellcheck: 1491.28ms
   Average time per word was 0.00136207ms
   Dictionary loaded in 129.679ms
-  File "input.txt" loaded in 0.175ms
+  File "inputlong.txt" loaded in 0.175ms
   Total Run time: 1621.24ms
 
 **Credit for dictionary: **
