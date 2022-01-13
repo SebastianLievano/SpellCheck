@@ -28,23 +28,23 @@ Word found here: this Vincent Spaulding?"
 This is error #184 found after 35.992ms
 
 
-FINAL REPORT: found 185 errors in 13175 words. This document had 98.5958 percent accuracy
-PERFORMANCE REPORT
-  Spellcheck: 36.171ms
-  Average time per word was 0.00274543ms
-  Dictionary loaded in 124.445ms
-  File "input.txt" loaded in 0.255ms
-  Total Run time: 160.998ms
+    FINAL REPORT: found 185 errors in 13175 words. This document had 98.5958 percent accuracy
+    PERFORMANCE REPORT
+      Spellcheck: 36.171ms
+      Average time per word was 0.00274543ms
+      Dictionary loaded in 124.445ms
+      File "input.txt" loaded in 0.255ms
+      Total Run time: 160.998ms
   
 output for inputlong.txt
 
-FINAL REPORT: found 35383 errors in 1094861 words. This document had 96.7683 percent accuracy
-PERFORMANCE REPORT
-  Spellcheck: 1491.28ms
-  Average time per word was 0.00136207ms
-  Dictionary loaded in 129.679ms
-  File "inputlong.txt" loaded in 0.175ms
-  Total Run time: 1621.24ms
+    FINAL REPORT: found 35383 errors in 1094861 words. This document had 96.7683 percent accuracy
+    PERFORMANCE REPORT
+      Spellcheck: 1491.28ms
+      Average time per word was 0.00136207ms
+      Dictionary loaded in 129.679ms
+      File "inputlong.txt" loaded in 0.175ms
+      Total Run time: 1621.24ms
 
 **Credit for dictionary: **
 custom wordlist generated from http://app.aspell.net/create using scowl
